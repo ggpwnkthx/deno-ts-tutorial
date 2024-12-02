@@ -1,3 +1,2 @@
 git pull
-
-deno jupyter --unstable --install
+deno jupyter --install
