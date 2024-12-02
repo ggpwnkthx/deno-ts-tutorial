@@ -12,5 +12,5 @@
 			]
 		}
 	},
-	"postStartCommand": "deno jupyter --unstable --install"
+	"postStartCommand": ".devcontainer/postStart.sh"
 }
