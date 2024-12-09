@@ -1,16 +1,28 @@
-# Deno 2 with Jupyter in VSCode
-This repository provides a streamlined development environment to use **Deno 2** with **Jupyter Notebooks** in **VSCode**. Whether you are new to programming or looking to explore TypeScript with Deno, this setup enables an easy-to-use, containerized environment that requires no command-line setup. Additionally, a tutorial is included to guide new developers through TypeScript basics and into Deno 2 features.
+# Deno TypeScript Tutorial
 
-## Features
-- **Deno 2 Integration**: Easily use Deno 2 in Jupyter Notebooks to run TypeScript code.
-- **VSCode DevContainer and Extensions**: All necessary tools are pre-installed, eliminating the need for additional setup.
-- **TypeScript Tutorial**: Walks you from basic TypeScript concepts to utilizing Deno effectively.
+This repository provides a comprehensive set of tutorials and resources to help developers explore and master TypeScript and Deno. Whether you're new to programming or looking to enhance your TypeScript and Deno skills, this repository is designed to guide you through both foundational and advanced concepts.
+
+## Tutorial
+
+Interactive Jupyter notebooks powered by Deno, covering various TypeScript concepts and their application in Deno:
+- **`00-00 Introduction.ipynb`**: An overview of TypeScript and Deno.
+- **`01-xx` Series**: Core syntax and programming fundamentals (types, variables, expressions, and more).
+- **`02-xx` Series**: Programming logic and flow control (conditions, loops, and error handling).
+- **`03-xx` Series**: Data structures like arrays, tuples, objects, and classes.
+- **`04-xx` Series**: Working with modules and namespaces in Deno.
+
+## Key Features
+
+- **Interactive Learning**: Tutorials designed as Jupyter notebooks with TypeScript support.
+- **Pre-built Modules**: Modular design to illustrate reusable TypeScript code.
+- **Deno Integration**: Explore modern JavaScript and TypeScript with Deno's runtime capabilities.
 
 ## Getting Started
-### Requirements
-- **VSCode**: Download and install [VSCode](https://code.visualstudio.com/).
-- **Remote - Containers Extension**: Install the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension in VSCode.
-- **Docker Desktop**: Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) to enable containerized development.
+
+### Prerequisites
+- [VSCode](https://code.visualstudio.com/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Remote - Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ### Setup Instructions
 - **Clone the Repository**: Open the Command Palette in VSCode (⇧⌘P on macOS, Ctrl+Shift+P on Windows/Linux) and select:
@@ -18,10 +30,10 @@ This repository provides a streamlined development environment to use **Deno 2**
    - Paste the repository URL and hit enter.
 - **Wait for Setup**: VSCode will automatically build the Docker container.
 
-### Tutorials
-- Open the tutorial notebooks in the `tutorial` folder.
-- Each notebook is configured to use Deno’s TypeScript kernel, so you can run TypeScript code cells directly.
-- Follow along with the TypeScript tutorial in the notebooks, progressing from basic syntax to advanced Deno-specific features.
+### Running Tutorials
+1. Navigate to the tutorial directory.
+2. Open the desired notebook in VSCode.
+3. Execute the TypeScript code cells using the Deno kernel.
 
 ## Resources
 - [Deno Documentation](https://deno.land/manual)
