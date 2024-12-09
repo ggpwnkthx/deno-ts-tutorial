@@ -31,7 +31,7 @@ Interactive Jupyter notebooks powered by Deno, covering various TypeScript conce
 - **Wait for Setup**: VSCode will automatically build the Docker container.
 
 ### Running Tutorials
-1. Navigate to the tutorial directory.
+1. Navigate to the `Tutorials` directory.
 2. Open the desired notebook in VSCode.
 3. Execute the TypeScript code cells using the Deno kernel.
 
