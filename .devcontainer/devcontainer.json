@@ -1,8 +1,9 @@
 {
-	"name": "deno-jupyter",
+	"name": "deno-ts-tutorial",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+  "initializeCommand": "sh -c 'ENVFILE=\"${localWorkspaceFolder}/.env\"; if [ ! -f \"$ENVFILE\" ]; then umask 000; : > \"$ENVFILE\"; chmod 666 \"$ENVFILE\"; fi'",
 	"customizations": {
 		"vscode": {
 			"extensions": [

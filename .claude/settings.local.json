@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(deno fmt:*)",
+      "Bash(deno lint:*)",
+      "Bash(deno check:*)",
+      "Bash(deno task:*)",
+      "Bash(deno --version)",
+      "WebSearch",
+      "WebFetch(domain:jsr.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:docs.deno.com)",
+      "mcp__ide__getDiagnostics",
+      "WebFetch(domain:deno.com)"
+    ],
+    "deny": [
+      "Read(./.env)"
+    ]
+  }
+}
