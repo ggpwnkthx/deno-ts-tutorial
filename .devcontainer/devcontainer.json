@@ -8,9 +8,14 @@
 			"extensions": [
 				"ms-toolsai.jupyter",
 				"justjavac.vscode-deno-extensionpack",
-				"vscode-icons-team.vscode-icons"
+				"vscode-icons-team.vscode-icons",
+        "Anthropic.claude-code"
 			]
 		}
 	},
+  "runArgs": [
+    "--env-file",
+    "${localWorkspaceFolder}/.env"
+  ],
 	"postStartCommand": ".devcontainer/postStart.sh"
 }
